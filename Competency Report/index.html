@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="mystyle.css" type="text/css" rel="stylesheet">
+  <title>Video Game</title>
+
+</head>
+
+<body>
+  <div class="site-header initial">
+
+    <img src="img/logo.png" width="20%">
+
+    <h1> Tom & Jerry's Fighting Game </h1>
+
+
+  </div>
+
+  <div class="site-divs">
+    <div class="all-divs">
+
+      <div class= "square">
+        <img src="img/jerry.png">
+        <h3>Jerry</h3>
+        <button onclick="jerry.attack(tom,selectItem())" name="attack" class="btn"> Attack </button>
+        <hr>
+        <div id= "Jerry"></div>
+      </div>
+
+      <div class= "square">
+        <img src="img/tom.png">
+        <h3>Tom</h3>
+        <button onclick="tom.attack(jerry,selectItem())" name="attack" class="btn"> Attack </button>
+        <hr>
+        <div id="Tom"></div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="Transform content" id="console">
+
+    
+  </div>
+
+<div class="footer">
+    <div class="copyright">
+        <p>
+            All the rights reserved &copy 2019 Carlos Teran
+        </p>
+    </div>
+</div>
+
+<script src="myscript.js"></script>
+
+</body>
+
+</html>
